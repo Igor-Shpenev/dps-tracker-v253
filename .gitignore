@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+package-lock.json
+bun.lock
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Uploads
+uploads/
+public/avatars/
+
+# Databases
+*.db
+*.db-journal
+prisma/dev.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.temp
+.cache/
+
+# Old archives (keep only v253)
+dps-tracker-v*.tar.gz
+!dps-tracker-v253.tar.gz
+*.zip
+websocket-*.tar.gz
+sse-*.tar.gz
+
+# Old deployment files
+deploy-temp/
